@@ -30,6 +30,9 @@ SongModel(id= 52,
               ]
 
 SoundManager.get_instance().play_songs(songs_list, 1)
+SoundManager.get_instance().next_song()
+SoundManager.get_instance().previous_song()
+SoundManager.get_instance().pause_song()
 
 
 
